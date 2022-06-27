@@ -17,7 +17,7 @@ function Footer(props){
 
     return(
       <>
-        <h1> {title}</h1>
+        <h1> {props.title}</h1>
 
         <button onClick={handleClick}> Change Text </button>
 
